@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Carlos Longarela
+  description: PHP 7.x fpm instal and configuration.
+  company: Desarrollo web Carlos Longarela
+
+  license: license GPLv2
+
+  min_ansible_version: 1.8
+
+  platforms:
+   - name: Ubuntu
+     versions:
+      - xenial
+
+  galaxy_tags:
+    - system
+    - development
+    - web
+
+dependencies: []
