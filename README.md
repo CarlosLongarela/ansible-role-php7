@@ -3,7 +3,7 @@ Ansible Role: PHP
 
 [![Build Status](https://travis-ci.org/CarlosLongarela/ansible-role-php.svg?branch=master)](https://travis-ci.org/CarlosLongarela/ansible-role-php)
 
-PHP 7.1 fpm install and configuration.
+PHP 7.x fpm install and configuration.
 
 Requirements
 ------------
