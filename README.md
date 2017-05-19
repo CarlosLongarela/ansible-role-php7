@@ -1,4 +1,4 @@
-Ansible Role: PHP
+Ansible Role: PHP 7.x
 =========
 
 [![Build Status](https://travis-ci.org/CarlosLongarela/ansible-role-php7.svg?branch=master)](https://travis-ci.org/CarlosLongarela/ansible-role-php7)
