@@ -2,6 +2,8 @@ Ansible Role: PHP 7.x
 =========
 
 [![Build Status](https://travis-ci.org/CarlosLongarela/ansible-role-php7.svg?branch=master)](https://travis-ci.org/CarlosLongarela/ansible-role-php7)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/CarlosLongarela/ansible-role-php7.svg)](http://isitmaintained.com/project/CarlosLongarela/ansible-role-php7 "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/CarlosLongarela/ansible-role-php7.svg)](http://isitmaintained.com/project/CarlosLongarela/ansible-role-php7 "Average time to resolve an issue")
 
 PHP 7.x fpm install and configuration.
 
