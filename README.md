@@ -15,7 +15,7 @@ None.
 Role Variables
 --------------
 
-    php_version: 7.1
+    php_version: 7.2
     php_fpm_daemon: "php{{ php_version }}-fpm"
 
     php_modules:
