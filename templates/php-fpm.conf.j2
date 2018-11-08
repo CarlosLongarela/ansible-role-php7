@@ -124,4 +124,4 @@ process.max = {{ php_fpm_process_max }}
 ; Relative path can also be used. They will be prefixed by:
 ;  - the global prefix if it's been set (-p argument)
 ;  - /usr otherwise
-include=/etc/php/7.1/fpm/pool.d/*.conf
+include=/etc/php/{{ php_version }}/fpm/pool.d/*.conf
