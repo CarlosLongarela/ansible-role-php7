@@ -7,18 +7,16 @@
 
 - name: Instalar PHP{{ php_version }}-fpm y requisitos.
   apt:
+    pkg:
+      - curl
+      - php{{ php_version }}-fpm
+      - php{{ php_version }}-cli
     state: latest
-    name: "{{ item }}"
-  with_items:
-    - curl
-    - php{{ php_version }}-fpm
-    - php{{ php_version }}-cli
 
 - name: Instalar los módulos de PHP v{{ php_version }}
   apt:
+    pkg: "{{ php_modules }}"
     state: latest
-    name: "{{ item }}"
-  with_items: "{{ php_modules }}"
 
 - name: Plantilla de configuración de php.ini
   template:
