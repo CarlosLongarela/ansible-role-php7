@@ -24,7 +24,6 @@ Role Variables
       - php{{ php_version }}-gd
       - php{{ php_version }}-json
       - php{{ php_version }}-mbstring
-      - php{{ php_version }}-mcrypt
       - php{{ php_version }}-mysql
       - php{{ php_version }}-readline
       - php{{ php_version }}-recode
